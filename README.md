@@ -1,5 +1,5 @@
 <div align="left" style="position: relative;">
-<img src="https://img.icons8.com/external-tal-revivo-duo-tal-revivo/100/external-markdown-a-lightweight-markup-language-with-plain-text-formatting-syntax-logo-duo-tal-revivo.png" align="right" width="30%" style="margin: -20px 0 0 20px;">
+
 <h1>AI_TRIPPLANNER.GIT</h1>
 
 ## 🔗 Table of Contents
