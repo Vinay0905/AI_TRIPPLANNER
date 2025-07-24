@@ -31,24 +31,10 @@ stateDiagram-v2
     Itinerary_Builder --> Output_Rendered
     Output_Rendered --> [*]
 ```
-##  Folder Structure
-
-atriyos-travel-planner/
-├── main.py                 # ASGI entrypoint (uvicorn)
-├── ui.py                   # Streamlit UI
-├── planner/
-│   ├── __init__.py
-│   ├── input_handler.py
-│   ├── planner.py
-│   ├── weather_service.py
-│   └── utils.py
-├── data/                   # Destination & weather data
-├── requirements.txt
-└── README.md
 
 
 
-##Getting Started
+## Getting Started
 Clone the repository and install the required packages:
 
 bash
