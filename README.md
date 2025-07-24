@@ -1,22 +1,6 @@
 <div align="left" style="position: relative;">
 <img src="https://img.icons8.com/external-tal-revivo-duo-tal-revivo/100/external-markdown-a-lightweight-markup-language-with-plain-text-formatting-syntax-logo-duo-tal-revivo.png" align="right" width="30%" style="margin: -20px 0 0 20px;">
 <h1>AI_TRIPPLANNER.GIT</h1>
-<p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
-</p>
-<p align="left">
-	<img src="https://img.shields.io/github/license/Vinay0905/AI_TRIPPLANNER.git?style=default&logo=opensourceinitiative&logoColor=white&color=ff00fb" alt="license">
-	<img src="https://img.shields.io/github/last-commit/Vinay0905/AI_TRIPPLANNER.git?style=default&logo=git&logoColor=white&color=ff00fb" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/Vinay0905/AI_TRIPPLANNER.git?style=default&color=ff00fb" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/Vinay0905/AI_TRIPPLANNER.git?style=default&color=ff00fb" alt="repo-language-count">
-</p>
-<p align="left"><!-- default option, no dependency badges. -->
-</p>
-<p align="left">
-	<!-- default option, no dependency badges. -->
-</p>
-</div>
-<br clear="right">
 
 ## 🔗 Table of Contents
 
@@ -38,13 +22,32 @@
 
 ## 📍 Overview
 
-<code>❯ REPLACE-ME</code>
+<code>❯ 
+
+Atriyos is an AI-powered travel planning agent designed to automate the process of generating personalized itineraries based on user input such as location, interest, duration, and more.
+
+The system is modularly designed with a production-ready mindset — featuring a Streamlit-based user interface and an ASGI-compatible backend (Uvicorn). The flow and logic are mapped using state diagrams and flowcharts to ensure clarity and maintainability from day one.
+
+Whether you're building agentic apps or learning AI+UX integration, Atriyos serves as a great starter blueprint.
+
+</code>
 
 ---
 
 ## 👾 Features
 
-<code>❯ REPLACE-ME</code>
+<code>❯ 
+
+- 🔍 **Input-Aware Planning**: Accepts user input like location, days, interest (e.g., food, adventure, relaxation).
+- 🧠 **Modular Agent Workflow**: Core logic split into agent, config, and exception handling — scalable and clean.
+- ⛅ **Environment-Responsive**: Can incorporate weather or external APIs to generate context-aware plans.
+- 🎨 **Interactive Frontend**: Built using Streamlit for a lightweight and modern UI.
+- ⚙️ **ASGI-Ready Backend**: Powered by Uvicorn for fast, asynchronous performance.
+- 🧱 **Config-Driven Execution**: Centralized YAML config support for agent tuning and deployment control.
+- 🗺️ **Visual Planning**: Includes Mermaid/flowchart diagrams that map the logic and decision tree clearly.
+
+
+</code>
 
 ---
 
