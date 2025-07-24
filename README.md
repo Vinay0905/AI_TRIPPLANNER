@@ -48,17 +48,35 @@ atriyos-travel-planner/
 
 
 
+##Getting Started
+Clone the repository and install the required packages:
+
+bash
+Copy
+Edit
+
+# 1. Clone the repository
+git clone https://github.com/yourusername/atriyos-travel-planner.git
+cd atriyos-travel-planner
+
+# 2. Install all dependencies
+pip install -r requirements.txt
+
+# 3. Run the backend server (Uvicorn handles async)
+uvicorn main:app --reload
+
+# 4. Launch the frontend (Streamlit UI)
+streamlit run ui.py
 
 
 
 
+uv pip list
+to run the server : streamlit run AI_TRIPPLANNER\streamlit_app.py
 
-# uv pip list
-# to run the server : streamlit run AI_TRIPPLANNER\streamlit_app.py
 
-
-# For Server :- 
-# first change to the cd W:\Youtube_langraph1\AI_TRIPPLANNER
-# then:-
-# "uvicorn main:app --host 0.0.0.0 --port 8000 --reload" run this after changing to this path W:\Youtube_langraph1\AI_TRIPPLANNER
-# for running streamlitt app :- " streamlit run streamlit_app.py "
+For Server :- 
+first change to the cd W:\Youtube_langraph1\AI_TRIPPLANNER
+then:-
+"uvicorn main:app --host 0.0.0.0 --port 8000 --reload" run this after changing to this path W:\Youtube_langraph1\AI_TRIPPLANNER
+for running streamlitt app :- " streamlit run streamlit_app.py "
