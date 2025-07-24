@@ -30,6 +30,22 @@ stateDiagram-v2
     Weather_Check --> Itinerary_Builder
     Itinerary_Builder --> Output_Rendered
     Output_Rendered --> [*]
+```
+##  Folder Structure
+
+atriyos-travel-planner/
+├── main.py                 # ASGI entrypoint (uvicorn)
+├── ui.py                   # Streamlit UI
+├── planner/
+│   ├── __init__.py
+│   ├── input_handler.py
+│   ├── planner.py
+│   ├── weather_service.py
+│   └── utils.py
+├── data/                   # Destination & weather data
+├── requirements.txt
+└── README.md
+
 
 
 
